@@ -23,7 +23,7 @@ const data = [
       {
         id: 'coffee03',
         logo:'./image/roa3_01.png',
-        image : '/image/coffee_03.jpeg',
+        image : './image/coffee_03.jpeg',
         desc:'달콤 & 상큼',
         title: '[영앤도터스] 룰라바이',
         price:'18,000원',
