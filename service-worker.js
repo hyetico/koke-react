@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "http://hyetico.github.io/kokereact/precache-manifest.239f84777fbb991f98cbd62ed22851c7.js"
+  "/kokereact/precache-manifest.07bb94a635b12abc47ee4d4356b6f547.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("http://hyetico.github.io/kokereact/index.html", {
+workbox.routing.registerNavigationRoute("/kokereact/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
