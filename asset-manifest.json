@@ -1,7 +1,7 @@
 {
   "main.css": "/kokereact/static/css/main.82fae427.chunk.css",
-  "main.js": "/kokereact/static/js/main.6677e017.chunk.js",
-  "main.js.map": "/kokereact/static/js/main.6677e017.chunk.js.map",
+  "main.js": "/kokereact/static/js/main.29aa3654.chunk.js",
+  "main.js.map": "/kokereact/static/js/main.29aa3654.chunk.js.map",
   "static/js/1.aa1ecd07.chunk.js": "/kokereact/static/js/1.aa1ecd07.chunk.js",
   "static/js/1.aa1ecd07.chunk.js.map": "/kokereact/static/js/1.aa1ecd07.chunk.js.map",
   "static/css/2.e287408a.chunk.css": "/kokereact/static/css/2.e287408a.chunk.css",
@@ -13,6 +13,6 @@
   "static/css/main.82fae427.chunk.css.map": "/kokereact/static/css/main.82fae427.chunk.css.map",
   "static/css/2.e287408a.chunk.css.map": "/kokereact/static/css/2.e287408a.chunk.css.map",
   "index.html": "/kokereact/index.html",
-  "precache-manifest.873502fae8f3a9bdf36de46fc163849e.js": "/kokereact/precache-manifest.873502fae8f3a9bdf36de46fc163849e.js",
+  "precache-manifest.c1f4af0476ef8702339682fd8be9ef7c.js": "/kokereact/precache-manifest.c1f4af0476ef8702339682fd8be9ef7c.js",
   "service-worker.js": "/kokereact/service-worker.js"
 }
