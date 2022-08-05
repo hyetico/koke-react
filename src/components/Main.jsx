@@ -7,7 +7,7 @@ export const Main = () => {
   return (
     <section className='visual_main'>
       <div className="visual_main_bg">
-        <img src={'/image/main_desktop.jpeg'} alt="코케비주얼메인이미지" />
+        <img src={'./image/main_desktop.jpeg'} alt="코케비주얼메인이미지" />
         <div className="visual_main_box">
           <div className="visual_main_txt">
             <h2>코케가 선택한 좋은원두, 신선한 원두<br></br>
