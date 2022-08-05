@@ -3,8 +3,8 @@ const data = [
        {
         id: 'coffee01',
         dataStatus:'블렌드',
-        logo:'/image/roa_01.png',
-        image : '/image/coffee_01.png',
+        logo:'./image/roa_01.png',
+        image : './image/coffee_01.png',
         desc:'고소 & 묵직한',
         title: '[컬렉터커피] 뉴커먼',
         price:'12,000원',
@@ -13,8 +13,8 @@ const data = [
       {
         id: 'coffee02',
         dataStatus:'블렌드',
-        logo:'/image/roa_10.png',
-        image : '/image/coffee_02.png',
+        logo:'./image/roa_10.png',
+        image : './image/coffee_02.png',
         desc:'상큼 & 깔끔한',
         title: '[하늘에커피] 하늘에 시그니처 블랜딩',
         price:'11,500원',
