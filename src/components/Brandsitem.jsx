@@ -6,28 +6,28 @@ import { Link } from 'react-router-dom';
 const brandproductdata =[
   {
     id:'brand01',
-    image : '/image/connectsproduct_01.png',
+    image : './image/connectsproduct_01.png',
     title: '[커넥츠커피] 뉴커먼',
     desc:'고소 & 묵직한',
     price:'12,000원'
   },
   {
     id:'brand02',
-    image : '/image/connectsproduct_02.png',
+    image : './image/connectsproduct_02.png',
     title: '[커넥츠커피] 발렌타인',
     desc:'쌉쌀 & 묵직한',
     price:'13,000원'
   },
   {
     id:'brand03',
-    image : '/image/connectsproduct_03.png',
+    image : './image/connectsproduct_03.png',
     title: '[커넥츠커피] 커넥츠 블렌드',
     desc:'밸런스 & 부드러운',
     price:'14,000원'
   },
   {
     id:'brand04',
-    image : '/image/connectsproduct_04.png',
+    image : './image/connectsproduct_04.png',
     title: '[커넥츠커피] 브라이트',
     desc:'상큼 & 부드러운 ',
     price:'14,000원'
@@ -42,13 +42,13 @@ export const Brandsitem = () => {
           <div className="brands_container sub_outer">
             <div className="brands_l">
               <div className="img_box">
-                <img src={`/image/connectsstore.jpeg`} alt="store" />
+                <img src={`./image/connectsstore.jpeg`} alt="store" />
               </div>
             </div>
             <div className="brands_r">
               <div className="brands_r_top">
                 <div className="logo_box">
-                  <Logo img={`/image/roa_01.png`} width='110px' height='110px' border='1px solid #ccc'></Logo>
+                  <Logo img={`./image/roa_01.png`} width='110px' height='110px' border='1px solid #ccc'></Logo>
                 </div>
                 <div className="logo_txt">
                   <h3>커넥츠커피</h3>
@@ -101,7 +101,7 @@ export const Brandsitem = () => {
                   <img src={value.image} alt="product_image" style={{width:'100%'}} />
                     <h3 className='product_title'>{value.title}</h3>
                     <p className='product_desc'>{value.desc}</p>
-                      <Logo img={`/image/roa_01.png`} title='커넥츠커피' width='30px' height='30px' fontSize='13px' display='flex'></Logo>
+                      <Logo img={`./image/roa_01.png`} title='커넥츠커피' width='30px' height='30px' fontSize='13px' display='flex'></Logo>
                     <p className='product_price'>{value.price}</p>
                   </div>
                </Link>
@@ -114,7 +114,7 @@ export const Brandsitem = () => {
                   <img src={value.image} alt="product_image" style={{width:'100%'}} />
                     <h3 className='product_title'>{value.title}</h3>
                     <p className='product_desc'>{value.desc}</p>
-                      <Logo img={`/image/roa_01.png`} title='커넥츠커피' width='30px' height='30px' fontSize='13px' display='flex'></Logo>
+                      <Logo img={`./image/roa_01.png`} title='커넥츠커피' width='30px' height='30px' fontSize='13px' display='flex'></Logo>
                     <p className='product_price'>{value.price}</p>
                   </div>
                 </div>

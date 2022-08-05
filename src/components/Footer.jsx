@@ -38,7 +38,7 @@ export const Footer = () => {
                     상품의 주문, 배송 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
                     </div>
                     <div className="footer_center_r">
-                        <img src={'/image/logo.png'} alt="코케로고"/>
+                        <img src={'./image/logo.png'} alt="코케로고"/>
                     </div>
                 </div>
             </div>
