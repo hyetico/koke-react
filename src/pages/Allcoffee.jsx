@@ -39,8 +39,8 @@ export const Allcoffee = () => {
                         <div className="allcoffee_box hover_box">
                           <Logo img={value.logo}></Logo>
                           <div className="img_box">
-                          <Link to='./detail' target='_blank'>
-                           <img src={value.image} alt="allcoffee_image" style={{width:'100%'}} />
+                          <Link to={'/detail'} target='_blank'>
+                            <img src={value.image} alt="allcoffee_image" style={{width:'100%'}} />
                           </Link>
                            <div className='hover_items'>
                             <IconBox className='hover_item'>
