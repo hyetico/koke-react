@@ -15,7 +15,7 @@ const navigate = useNavigate()
         <div className="roastery_container_outer">
             <div className='container'>
                 {
-               data.map((value, i) => {
+               data.map((value) => {
                  if(value.id==='Roa01_logo')
                  return (
                     <div className='col-md-3' key={value.id} onClick={()=>{navigate('/brand')}}>

@@ -21,7 +21,7 @@ transition: all 0.3s;
    background:${(props) => (props.cart ?'#ff6c57;':'#fff;')};
    border:${(props)=>(props.cart ?'1px solid #ff6c57;':'1px solid #ff6c57;')};
    box-sizing: border-box;
-   color:${(props) => (props.cart?'#fff':'#ff6c57')}
+   color:${(props) => (props.cart?'#fff':'#ff6c57')};
   }
 
   ${(props)=>
@@ -68,7 +68,7 @@ export const Detail = () => {
           <div className="container product_container">
             {
             brandproductdata.map((value)=>{
-              if(value.id==='brand01')
+              if(value.id ==='brand01')
               return(
                 <div className='container'>
                     <div className="detail_box">

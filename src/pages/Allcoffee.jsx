@@ -32,14 +32,14 @@ export const Allcoffee = () => {
           <div className='allcoffee_container container sub_container'>
             {
               data.map((value, i) => {
-                if(value.id==='coffee01')
+                if(value.id ==='coffee01')
                 return (
                     <>
                       <div className='col-md-3 link' key={value.id}>
                         <div className="allcoffee_box hover_box">
                           <Logo img={value.logo}></Logo>
                           <div className="img_box">
-                          <Link to='/detail' target='_blank'>
+                          <Link to='./detail' target='_blank'>
                            <img src={value.image} alt="allcoffee_image" style={{width:'100%'}} />
                           </Link>
                            <div className='hover_items'>
@@ -60,7 +60,7 @@ export const Allcoffee = () => {
                             </IconBox>
                            </div>
                           </div>
-                          <Link to='/detail' target='_blank' className='link'>
+                          <Link to='./detail' target='_blank' className='link'>
                             <h3 className='product_title product_title01'>{value.title}</h3>
                             <p className='product_desc'>{value.desc}</p>
                             <p className='product_price'>{value.price}</p>
