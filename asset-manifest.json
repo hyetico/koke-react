@@ -1,7 +1,7 @@
 {
   "main.css": "/kokereact/static/css/main.82fae427.chunk.css",
-  "main.js": "/kokereact/static/js/main.abe793b4.chunk.js",
-  "main.js.map": "/kokereact/static/js/main.abe793b4.chunk.js.map",
+  "main.js": "/kokereact/static/js/main.b893b8c7.chunk.js",
+  "main.js.map": "/kokereact/static/js/main.b893b8c7.chunk.js.map",
   "static/js/1.aa1ecd07.chunk.js": "/kokereact/static/js/1.aa1ecd07.chunk.js",
   "static/js/1.aa1ecd07.chunk.js.map": "/kokereact/static/js/1.aa1ecd07.chunk.js.map",
   "static/css/2.e287408a.chunk.css": "/kokereact/static/css/2.e287408a.chunk.css",
@@ -10,9 +10,9 @@
   "runtime~main.js": "/kokereact/static/js/runtime~main.b3a51baa.js",
   "runtime~main.js.map": "/kokereact/static/js/runtime~main.b3a51baa.js.map",
   "static/media/semantic.min.css": "/kokereact/static/media/brand-icons.a1a749e8.svg",
-  "static/css/main.82fae427.chunk.css.map": "/kokereact/static/css/main.82fae427.chunk.css.map",
   "static/css/2.e287408a.chunk.css.map": "/kokereact/static/css/2.e287408a.chunk.css.map",
+  "static/css/main.82fae427.chunk.css.map": "/kokereact/static/css/main.82fae427.chunk.css.map",
   "index.html": "/kokereact/index.html",
-  "precache-manifest.12ad6a6b001b0c9b0402f5f71064a1f1.js": "/kokereact/precache-manifest.12ad6a6b001b0c9b0402f5f71064a1f1.js",
+  "precache-manifest.e688c3514eb8b6573a0dee938224bc45.js": "/kokereact/precache-manifest.e688c3514eb8b6573a0dee938224bc45.js",
   "service-worker.js": "/kokereact/service-worker.js"
 }
