@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kokereact/precache-manifest.939a7290c28aeb903451e7c3604ac8b2.js"
+  "/kokereact/precache-manifest.36f2630eae92198b07bf592db4834831.js"
 );
 
 workbox.clientsClaim();
