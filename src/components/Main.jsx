@@ -14,7 +14,7 @@ export const Main = () => {
             다양한 브랜드들의 원두를 즐겨보세요.
             </h2>
             <p className="subtitle">코케의 원두들이 궁금하신가요?</p>
-            <Link to={'/allcoffee'}><Button text='자세히 보기'></Button></Link>
+            <Link to={'/allcoffee'} ><Button text='자세히 보기'></Button></Link>
           </div>
         </div>
       </div>

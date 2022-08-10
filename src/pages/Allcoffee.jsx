@@ -14,7 +14,6 @@ export const Allcoffee = () => {
 
   const [count, setCount] = useState([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]);
 
-
   let dispatch = useDispatch()
  
   return (

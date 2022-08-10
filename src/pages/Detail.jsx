@@ -77,7 +77,7 @@ export const Detail = () => {
                         <div className="detail_l_txt">
                         <p>견과류의 고소함을 베이스로<br></br>
                           깊은 바디감이 잘 어울리는 균형감이 좋은 블렌드입니다.</p>
-                        <Logo img={`/image/roa_01.png`} title='커넥츠커피' width='40px' height='40px' fontSize='13px' display='flex'></Logo>
+                        <Logo img={`./image/roa_01.png`} title='커넥츠커피' width='40px' height='40px' fontSize='13px' display='flex'></Logo>
                         </div>
                         </div>
                         <div className="detail_r">

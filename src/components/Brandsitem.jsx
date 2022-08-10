@@ -96,7 +96,7 @@ export const Brandsitem = () => {
           brandproductdata.map((value)=>{
             if(value.id === 'brand01')
             return(
-               <Link to='/detail' target='_blank' className='col-md-3 link'>
+               <Link to='/detail' prefetch={false} className='col-md-3 link'>
                   <div className="product_box">
                   <img src={value.image} alt="product_image" style={{width:'100%'}} />
                     <h3 className='product_title'>{value.title}</h3>
