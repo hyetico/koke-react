@@ -48,9 +48,8 @@ export const Allcoffee = () => {
                                 let countCopy=[...count]
                                 countCopy[i] +=1
                                 setCount(countCopy)
-                              }}/>
-                                {
-                                count[i]===false ? '' : <div className='heart_state'>+{count[i]}</div>
+                              }}/>{
+                                count[i] == false ? '' : <div className='heart_state'>+{count[i]}</div>
                                 }
                             </IconBox>
                             <IconBox className='hover_item'>
@@ -83,7 +82,7 @@ export const Allcoffee = () => {
                                 countCopy[i] +=1
                                 setCount(countCopy)
                               }} />{
-                                count[i]===false ? '' : <div className='heart_state'>+{count[i]}</div>
+                                count[i] == false ? '' : <div className='heart_state'>+{count[i]}</div>
                                 }
                               {/* <div className='heart_state'>+{count[i]}</div> */}
                             </IconBox>

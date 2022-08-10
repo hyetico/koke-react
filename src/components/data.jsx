@@ -185,7 +185,7 @@ const data = [
       {
           id: 'Roa06_logo',
           title: '컬러드 빈',
-          img:'/image/roa_06.png'
+          img:'./image/roa_06.png'
       },
       {
           id: 'Roa07_logo',

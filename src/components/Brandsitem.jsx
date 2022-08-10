@@ -48,7 +48,7 @@ export const Brandsitem = () => {
             <div className="brands_r">
               <div className="brands_r_top">
                 <div className="logo_box">
-                  <Logo img={`./image/roa_01.png`} width='110px' height='110px' border='1px solid #ccc'></Logo>
+                  <Logo src={`./image/roa_01.png`} width='110px' height='110px' border='1px solid #ccc'></Logo>
                 </div>
                 <div className="logo_txt">
                   <h3>커넥츠커피</h3>
@@ -96,7 +96,7 @@ export const Brandsitem = () => {
           brandproductdata.map((value)=>{
             if(value.id === 'brand01')
             return(
-               <Link to='/detail' prefetch={false} className='col-md-3 link'>
+               <Link to={'/detail'} prefetch={false} className='col-md-3 link'>
                   <div className="product_box">
                   <img src={value.image} alt="product_image" style={{width:'100%'}} />
                     <h3 className='product_title'>{value.title}</h3>
