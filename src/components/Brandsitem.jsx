@@ -94,7 +94,7 @@ export const Brandsitem = () => {
           <div className="container product_container">
           {
           brandproductdata.map((value)=>{
-            if(value.id==='brand01')
+            if(value.id === 'brand01')
             return(
                <Link to='/detail' target='_blank' className='col-md-3 link'>
                   <div className="product_box">

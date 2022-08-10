@@ -14,10 +14,12 @@ export const Allcoffee = () => {
 
   const [count, setCount] = useState([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]);
 
+
   let dispatch = useDispatch()
  
   return (
-    <section className='allcoffee_outer sub_outer'>
+    <>
+     <section className='allcoffee_outer sub_outer'>
       <div className="allcoffee_inner inner">
         <SubTitle title='모든커피' numtitle='16개'></SubTitle>
         <div className="allcoffee_container_outer">
@@ -32,14 +34,13 @@ export const Allcoffee = () => {
           <div className='allcoffee_container container sub_container'>
             {
               data.map((value, i) => {
-                if(value.id ==='coffee01')
+                if(value.id === 'coffee01')
                 return (
-                    <>
                       <div className='col-md-3 link' key={value.id}>
                         <div className="allcoffee_box hover_box">
                           <Logo img={value.logo}></Logo>
                           <div className="img_box">
-                          <Link to={'/detail'} target='_blank'>
+                          <Link to={'/detail'} prefetch={false}>
                             <img src={value.image} alt="allcoffee_image" style={{width:'100%'}} />
                           </Link>
                            <div className='hover_items'>
@@ -50,7 +51,7 @@ export const Allcoffee = () => {
                                 setCount(countCopy)
                               }}/>
                                 {
-                                count[i]==false ? '' : <div className='heart_state'>+{count[i]}</div>
+                                count[i]===false ? '' : <div className='heart_state'>+{count[i]}</div>
                                 }
                             </IconBox>
                             <IconBox className='hover_item'>
@@ -67,12 +68,11 @@ export const Allcoffee = () => {
                           </Link> 
                         </div>
                       </div>
-                    </>
                   )
                   else {
                     if(value.id.includes('coffee'))
                     return(
-                     <div className='col-md-3' key={value.id}>
+                     <div className='col-md-3' >
                       <div className="allcoffee_box hover_box">
                         <Logo img={value.logo}></Logo>
                         <div className="img_box">
@@ -84,7 +84,7 @@ export const Allcoffee = () => {
                                 countCopy[i] +=1
                                 setCount(countCopy)
                               }} />{
-                                count[i]==false ? '' : <div className='heart_state'>+{count[i]}</div>
+                                count[i]===false ? '' : <div className='heart_state'>+{count[i]}</div>
                                 }
                               {/* <div className='heart_state'>+{count[i]}</div> */}
                             </IconBox>
@@ -109,5 +109,7 @@ export const Allcoffee = () => {
         <Pagenation></Pagenation>
       </div>
     </section>
+    </>
+   
   )
 }
